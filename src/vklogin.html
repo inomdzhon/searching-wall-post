@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VKLogin</title>
+</head>
+<body>
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript">
+    (function() {
+      'use strict';
+      var socket = io.connect();
+      socket.emit('post the code', window.location.search.replace(/\?/, ''));
+      socket.on('go to search page', function () { window.location = 'search.html'; });
+    })();
+  </script>
+</body>
+</html>

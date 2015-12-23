@@ -1,0 +1,14 @@
+{
+  "name": "searching_wall_post",
+  "version": "0.0.1",
+  "description": "Application help find some of the records of your friends from social network Vkontakte.",
+  "author": "svarnoi420",
+  "dependencies": {
+    "mysql": "git://github.com/felixge/node-mysql",
+    "socket.io": "0.9.6",
+    "mime": "1.2.7",
+    "request": "2.67.0",
+    "sync-request": "2.1.0",
+    "sleep": "3.0.0"
+  }
+}

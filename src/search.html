@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="record, post, keyword, keywords, vkontakte, vk">
+  <meta name="description" content="Application help find some of the records of your friends from social network Vkontakte.">
+  <title>SearchingWallPost</title>
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
+
+        <div class="masthead clearfix">
+          <h1>Find record</h1>
+          <p class="lead">Type word or words</p>
+          <form class="send-request input-group">
+            <input class="filter-word form-control" type="text">
+            <span class="input-group-btn">
+              <button class="btn btn-default glyphicon glyphicon-search" type="submit"></button>
+            </span>
+          </form>
+          <div class="found"></div>
+        </div>
+
+        <table class="cover table">
+          <thead>
+            <tr>
+              <th>Photo</th>
+              <th>First name</th>
+              <th>Last name</th>
+              <th>Date</th>
+              <th>Text</th>
+            </tr>
+          </thead>
+          <tbody class="frame">
+
+          </tbody>
+        </table>
+
+        <div class="mastfoot">
+          <div class="inner">
+            <p>Copyright 2015</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="js/app_ui.js"></script>
+</body>
+</html>
