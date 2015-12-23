@@ -13,6 +13,7 @@ If you want to try, then you can take the following actions:
 *Requirements*: MySQL, NodeJS, Internet connection, Browser.
 
 *Note*: VK application authorization uses the [OAuth 2.0 open protocol](http://oauth.net/2/).
+
 1. Create profile [http://vk.com/](http://vk.com/)
 2. To shaw charisma and make friends.
 3. Go to the [http://vk.com/dev/](http://vk.com/dev/)
