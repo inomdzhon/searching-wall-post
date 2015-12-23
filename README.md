@@ -25,15 +25,15 @@ If you want to try, then you can take the following actions:
     - Authorized redirect URI: http://localhost:3000/vklogin.html
 6. Not bad for a start!
 7. Clone repository and install node modules
-```
-git clone https://github.com/svarnoi420/searching-wall-post.git
-npm install
-```
+    ```
+    git clone https://github.com/svarnoi420/searching-wall-post.git
+    npm install
+    ```
 8. Now we play the game. Because I know you like play the games. Go to the directory *lib/app_server.js* and *src/index.html*, then change all **YOURS** on your data.
 9. When you're ready start the server:
-```
-node server
-```
+    ```
+    node server
+    ```
 10. Perfect! Or all went to hell...
 
 ##TODO
