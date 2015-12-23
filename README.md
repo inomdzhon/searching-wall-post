@@ -19,9 +19,9 @@ If you want to try, then you can take the following actions:
 4. Create a new application (then "client id", "secure key" up your sleeve)
     - Category: Website
 5. Go to the settings your application and set next (example for local machine):
-   - Site address: http://localhost:3000
-   - Base domen: localhost:3000
-   - Authorized redirect URI: http://localhost:3000/vklogin.html
+    - Site address: http://localhost:3000
+    - Base domen: localhost:3000
+    - Authorized redirect URI: http://localhost:3000/vklogin.html
 6. Not bad for a start!
 7. Clone repository and install node modules
 ```
